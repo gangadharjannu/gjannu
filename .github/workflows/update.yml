@@ -1,0 +1,85 @@
+# Get the new videos from the channel, build the site and publish it to GitHub Pages.
+# Triggers:
+#   repository_dispatch  The notifier Worker (notify/) sends it when the channel uploads a video.
+#   schedule             A weekly safety run. It adds videos that a lost notification missed.
+#   workflow_dispatch    Start it by hand from the Actions tab ("Run workflow").
+#   push                 Build again after a change to the data, the scripts or the design.
+
+name: Update and deploy
+
+on:
+  repository_dispatch:
+    types: [youtube-video]
+  schedule:
+    - cron: "30 1 * * 1"   # Monday 01:30 UTC = 07:00 IST
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Fetch source: auto, rss or api"
+        default: auto
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/**", "site/**", "site.config.json"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new videos
+        if: github.event_name != 'push'
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          # Pass outside values through env, not directly in the script, to prevent script injection.
+          WAIT_FOR_VIDEO: ${{ github.event.client_payload.video_id }}
+          FETCH_SOURCE: ${{ github.event.inputs.source || 'auto' }}
+        run: python3 scripts/fetch.py --source "$FETCH_SOURCE"
+
+      - name: Commit data changes
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Update the video data from the channel"
+            git push
+          fi
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build the site
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python3 scripts/build.py --base "${{ steps.pages.outputs.base_path }}/"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

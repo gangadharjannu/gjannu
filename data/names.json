@@ -1,0 +1,1164 @@
+{
+ "_note": "Each entry gives the Telugu display name, the English name and the other spellings that the video descriptions use. The build ignores spaces, dots and brackets when it compares names.",
+ "people": [
+  {
+   "te": "ఘంటసాల",
+   "en": "Ghantasala",
+   "aliases": [
+    "ఘంటసాల వెంకటేశ్వరరావు"
+   ]
+  },
+  {
+   "te": "పి. బి. శ్రీనివాస్",
+   "en": "P. B. Sreenivas",
+   "aliases": [
+    "ప్రతివాది భయంకర శ్రీనివాస్ (పి.బి. శ్రీనివాస్)",
+    "పి.బి.శ్రీనివాస్"
+   ]
+  },
+  {
+   "te": "పి. సుశీల",
+   "en": "P. Susheela",
+   "aliases": [
+    "పులపాక సుశీల (పి.సుశీల)",
+    "పి.సుశీల",
+    "సుశీల"
+   ]
+  },
+  {
+   "te": "పి. లీల",
+   "en": "P. Leela",
+   "aliases": [
+    "పొరయత్తు లీల (పి.లీల)",
+    "పి.లీల"
+   ]
+  },
+  {
+   "te": "ఎస్. జానకి",
+   "en": "S. Janaki",
+   "aliases": [
+    "శిష్ట్ల శ్రీరామ మూర్తి జాన (ఎస్. జానకి)",
+    "శిష్ట్ల శ్రీరామ మూర్తి జానకి (ఎస్. జానకి)"
+   ]
+  },
+  {
+   "te": "ఎస్. పి. బాలసుబ్రహ్మణ్యం",
+   "en": "S. P. Balasubrahmanyam",
+   "aliases": [
+    "ఎస్.పి.బాలసుబ్రహ్మణ్యం",
+    "ఎస్పి బాలసుబ్రహ్మణ్యం",
+    "శ్రీపతి పండితారాధ్యుల బాలసుబ్రహ్మణ్యం (ఎస్. పి. బాలసుబ్రహ్మణ్యం)"
+   ]
+  },
+  {
+   "te": "ఎం. ఎం. కీరవాణి",
+   "en": "M. M. Keeravani",
+   "aliases": [
+    "ఎం.ఎం.కీరవాణి",
+    "ఎమ్.ఎమ్.కీరవాణి",
+    "కోడూరి మరకతమణి కీరవాణి (ఎం. ఎం. కీరవాణి)",
+    "కోడూరి మరకతమణి కీరవాణి"
+   ]
+  },
+  {
+   "te": "మాధవపెద్ది సత్యం",
+   "en": "Madhavapeddi Satyam",
+   "aliases": []
+  },
+  {
+   "te": "వాణీ జయరాం",
+   "en": "Vani Jairam",
+   "aliases": []
+  },
+  {
+   "te": "మనో",
+   "en": "Mano",
+   "aliases": [
+    "నాగూర్ బాబు (మనో)"
+   ]
+  },
+  {
+   "te": "ప్రియా సిస్టర్స్",
+   "en": "Priya Sisters",
+   "aliases": [
+    "షణ్ముఖప్రియ, హరిప్రియలు (ప్రియా సిస్టర్స్)"
+   ]
+  },
+  {
+   "te": "కాల భైరవ",
+   "en": "Kaala Bhairava",
+   "aliases": []
+  },
+  {
+   "te": "గుమ్మడి గోపాలకృష్ణ",
+   "en": "Gummadi Gopalakrishna",
+   "aliases": []
+  },
+  {
+   "te": "చాగంటి కోటేశ్వరరావు",
+   "en": "Chaganti Koteswara Rao",
+   "aliases": []
+  },
+  {
+   "te": "జనని ఎస్. వి.",
+   "en": "Janani S. V.",
+   "aliases": [
+    "జనని ఎస్.వి"
+   ]
+  },
+  {
+   "te": "నందిని రావు గుజర్",
+   "en": "Nandini Rao Gujar",
+   "aliases": []
+  },
+  {
+   "te": "పారుపల్లి శ్రీ రంగనాథ్",
+   "en": "Parupalli Sri Ranganath",
+   "aliases": []
+  },
+  {
+   "te": "ప్రణవి",
+   "en": "Pranavi",
+   "aliases": []
+  },
+  {
+   "te": "అభిషేక్ రఘురాం",
+   "en": "Abhishek Raghuram",
+   "aliases": []
+  },
+  {
+   "te": "యం. మల్లేశ్వరరావు భాగవతార్",
+   "en": "M. Malleswara Rao Bhagavatar",
+   "aliases": []
+  },
+  {
+   "te": "లక్ష్మణ్ మీసాల",
+   "en": "Lakshman Meesala",
+   "aliases": []
+  },
+  {
+   "te": "విజయ్ ప్రకాష్",
+   "en": "Vijay Prakash",
+   "aliases": []
+  },
+  {
+   "te": "విస్సంరాజు రామకృష్ణదాసు",
+   "en": "Vissamraju Ramakrishnadasu",
+   "aliases": []
+  },
+  {
+   "te": "వేమూరి శ్యామ సుందర రావు",
+   "en": "Vemuri Syama Sundara Rao",
+   "aliases": []
+  },
+  {
+   "te": "శ్రుతి రవళి",
+   "en": "Sruthi Ravali",
+   "aliases": []
+  },
+  {
+   "te": "నందన్ రాజ్ బొబ్బిలి",
+   "en": "Nandan Raj Bobbili",
+   "aliases": []
+  },
+  {
+   "te": "సిరివెన్నెల సీతారామశాస్త్రి",
+   "en": "Sirivennela Seetharama Sastry",
+   "aliases": [
+    "సిరివెన్నెల",
+    "చేంబోలు సీతారామశాస్త్రి"
+   ]
+  },
+  {
+   "te": "రామజోగయ్య శాస్త్రి",
+   "en": "Ramajogayya Sastry",
+   "aliases": []
+  },
+  {
+   "te": "వేటూరి సుందరరామ్మూర్తి",
+   "en": "Veturi Sundararama Murthy",
+   "aliases": [
+    "వేటూరి"
+   ]
+  },
+  {
+   "te": "వీటూరి",
+   "en": "Veeturi",
+   "aliases": [
+    "వీటూరి వెంకట సత్య సూర్యనారాయణ మూర్తి (వీటూరి)",
+    "వీటూరి వెంకట సత్య సూర్యనారాయణ మూర్తి"
+   ]
+  },
+  {
+   "te": "ఆరుద్ర",
+   "en": "Arudra",
+   "aliases": [
+    "ఆరుద్ర (భాగవతుల సదాశివశంకర శాస్త్రి)"
+   ]
+  },
+  {
+   "te": "సముద్రాల రాఘవాచార్య",
+   "en": "Samudrala Raghavacharya",
+   "aliases": [
+    "సముద్రాల సీనియర్"
+   ]
+  },
+  {
+   "te": "పింగళి నాగేంద్రరావు",
+   "en": "Pingali Nagendra Rao",
+   "aliases": []
+  },
+  {
+   "te": "దేవులపల్లి కృష్ణశాస్త్రి",
+   "en": "Devulapalli Krishnasastri",
+   "aliases": []
+  },
+  {
+   "te": "దాశరథి కృష్ణమాచార్య",
+   "en": "Dasarathi Krishnamacharya",
+   "aliases": []
+  },
+  {
+   "te": "సి. నారాయణరెడ్డి",
+   "en": "C. Narayana Reddy",
+   "aliases": [
+    "సింగిరెడ్డి నారాయణరెడ్డి (సి.నా.రె)",
+    "సి.నా.రె"
+   ]
+  },
+  {
+   "te": "మల్లెమాల సుందర రామిరెడ్డి",
+   "en": "Mallemala Sundara Rami Reddy",
+   "aliases": []
+  },
+  {
+   "te": "జొన్నవిత్తుల రామలింగేశ్వర రావు",
+   "en": "Jonnavithula Ramalingeswara Rao",
+   "aliases": []
+  },
+  {
+   "te": "అనంత శ్రీరామ్",
+   "en": "Anantha Sriram",
+   "aliases": [
+    "చేగొండి అనంత శ్రీరామ్"
+   ]
+  },
+  {
+   "te": "శ్రీమణి",
+   "en": "Sreemani",
+   "aliases": [
+    "పాగోలు గిరీష్ (శ్రీమణి)"
+   ]
+  },
+  {
+   "te": "కోడూరి శివ శక్తి దత్త",
+   "en": "Koduri Siva Sakthi Datta",
+   "aliases": []
+  },
+  {
+   "te": "తాండ్ర సుబ్రహ్మణ్యం",
+   "en": "Thandra Subrahmanyam",
+   "aliases": []
+  },
+  {
+   "te": "చిల్లర భావన్నారాయణ",
+   "en": "Chillara Bhavannarayana",
+   "aliases": []
+  },
+  {
+   "te": "గబ్బిట వెంకటరావు",
+   "en": "Gabbita Venkata Rao",
+   "aliases": []
+  },
+  {
+   "te": "బలిజేపల్లి లక్ష్మీకాంతం",
+   "en": "Balijepalli Lakshmikantham",
+   "aliases": []
+  },
+  {
+   "te": "తాపీ ధర్మారావు",
+   "en": "Tapi Dharma Rao",
+   "aliases": []
+  },
+  {
+   "te": "సామ్రాట్ నాయుడు",
+   "en": "Samrat Naidu",
+   "aliases": []
+  },
+  {
+   "te": "బాబ్జీ",
+   "en": "Babji",
+   "aliases": []
+  },
+  {
+   "te": "నన్నయ భట్టారకుడు",
+   "en": "Nannaya Bhattaraka",
+   "aliases": [
+    "నన్నయ"
+   ]
+  },
+  {
+   "te": "తిక్కన సోమయాజి",
+   "en": "Tikkana Somayaji",
+   "aliases": [
+    "తిక్కన"
+   ]
+  },
+  {
+   "te": "బమ్మెర పోతన",
+   "en": "Bammera Potana",
+   "aliases": [
+    "పోతన"
+   ]
+  },
+  {
+   "te": "శ్రీనాథుడు",
+   "en": "Srinatha",
+   "aliases": []
+  },
+  {
+   "te": "నంది తిమ్మన",
+   "en": "Nandi Timmana",
+   "aliases": []
+  },
+  {
+   "te": "ధూర్జటి",
+   "en": "Dhurjati",
+   "aliases": [
+    "ధూర్జటి (పెద్ద ధూర్జటి)"
+   ]
+  },
+  {
+   "te": "శ్రీ కృష్ణదేవ రాయలు",
+   "en": "Sri Krishnadevaraya",
+   "aliases": []
+  },
+  {
+   "te": "కంకంటి పాపరాజు",
+   "en": "Kankanti Paparaju",
+   "aliases": []
+  },
+  {
+   "te": "తిరుపతి వేంకట కవులు",
+   "en": "Tirupati Venkata Kavulu",
+   "aliases": []
+  },
+  {
+   "te": "అన్నమాచార్య",
+   "en": "Annamacharya",
+   "aliases": [
+    "శ్రీ తాళ్ళపాక అన్నమాచార్య (అన్నమయ్య)",
+    "అన్నమయ్య"
+   ]
+  },
+  {
+   "te": "సదాశివ బ్రహ్మేంద్ర",
+   "en": "Sadasiva Brahmendra",
+   "aliases": [
+    "శ్రీ సదాశివ బ్రహ్మేంద్రియస్వామి",
+    "సదాశివబ్రహ్మం"
+   ]
+  },
+  {
+   "te": "ఆది శంకరాచార్యులు",
+   "en": "Adi Shankaracharya",
+   "aliases": []
+  },
+  {
+   "te": "కాళిదాసు",
+   "en": "Kalidasa",
+   "aliases": [
+    "కాళిదాసు (శ్యామలా దండకం)",
+    "మహాకవి కాళిదాసు"
+   ]
+  },
+  {
+   "te": "లీలాశుకుడు",
+   "en": "Leelasuka",
+   "aliases": []
+  },
+  {
+   "te": "వాల్మీకి మహర్షి",
+   "en": "Valmiki",
+   "aliases": []
+  },
+  {
+   "te": "వ్యాసుడు",
+   "en": "Veda Vyasa",
+   "aliases": []
+  },
+  {
+   "te": "వేదాంత దేశికులు",
+   "en": "Vedanta Desika",
+   "aliases": [
+    "వేదాంత దేశికన్"
+   ]
+  },
+  {
+   "te": "పెండ్యాల నాగేశ్వరరావు",
+   "en": "Pendyala Nageswara Rao",
+   "aliases": [
+    "పెండ్యాల నాగేశ్వర రావు"
+   ]
+  },
+  {
+   "te": "కె. వి. మహదేవన్",
+   "en": "K. V. Mahadevan",
+   "aliases": [
+    "కె.వి.మహదేవన్"
+   ]
+  },
+  {
+   "te": "సుసర్ల దక్షిణామూర్తి",
+   "en": "Susarla Dakshinamurthi",
+   "aliases": []
+  },
+  {
+   "te": "సాలూరి రాజేశ్వరరావు",
+   "en": "Saluri Rajeswara Rao",
+   "aliases": [
+    "సాలూరు రాజేశ్వరరావు"
+   ]
+  },
+  {
+   "te": "సాలూరి హనుమంతరావు",
+   "en": "Saluri Hanumantha Rao",
+   "aliases": [
+    "సాలూరు హనుమంతరావు"
+   ]
+  },
+  {
+   "te": "టి. వి. రాజు",
+   "en": "T. V. Raju",
+   "aliases": [
+    "టి.వి.రాజు",
+    "తోటకూర వెంకట రాజు (టి.వి.రాజు)"
+   ]
+  },
+  {
+   "te": "విశ్వనాథన్ – రామమూర్తి",
+   "en": "Viswanathan–Ramamoorthy",
+   "aliases": [
+    "ఎం.ఎస్.విశ్వనాథన్ - టి.కె.రామమూర్తి"
+   ]
+  },
+  {
+   "te": "ఎస్. పి. కోదండపాణి",
+   "en": "S. P. Kodandapani",
+   "aliases": [
+    "శ్రీపతి పండితారాధ్యుల కోదండపాణి",
+    "శ్రీపతి పండితారాధ్యుల కోదండపాణి (ఎస్.పి.కోదండపాణి)"
+   ]
+  },
+  {
+   "te": "పామర్తి",
+   "en": "Pamarthi",
+   "aliases": []
+  },
+  {
+   "te": "పువ్వుల సూరిబాబు",
+   "en": "Puvvula Suribabu",
+   "aliases": []
+  },
+  {
+   "te": "మాధవపెద్ది సురేష్",
+   "en": "Madhavapeddi Suresh",
+   "aliases": []
+  },
+  {
+   "te": "ఇళయరాజా",
+   "en": "Ilaiyaraaja",
+   "aliases": []
+  },
+  {
+   "te": "ఎ. ఆర్. రెహమాన్",
+   "en": "A. R. Rahman",
+   "aliases": []
+  },
+  {
+   "te": "మణిశర్మ",
+   "en": "Mani Sharma",
+   "aliases": [
+    "యనమండ్ర వెంకట సుబ్రహ్మణ్య శర్మ (మణిశర్మ)"
+   ]
+  },
+  {
+   "te": "ఎస్. తమన్",
+   "en": "S. Thaman",
+   "aliases": [
+    "ఎస్.ఎస్. తమన్",
+    "ఘంటసాల సాయి శ్రీనివాస్ (ఎస్.తమన్)"
+   ]
+  },
+  {
+   "te": "చక్రవర్తి",
+   "en": "Chakravarthy",
+   "aliases": [
+    "కొమ్మినేని శ్రీనివాస చక్రవర్తి"
+   ]
+  },
+  {
+   "te": "కోడూరి కళ్యాణ్",
+   "en": "Koduri Kalyan",
+   "aliases": []
+  },
+  {
+   "te": "చిరంతన్ భట్",
+   "en": "Chirantan Bhatt",
+   "aliases": [
+    "చిరంతన్ భట్ఏ"
+   ]
+  },
+  {
+   "te": "డి. చిట్టి బాబు",
+   "en": "D. Chitti Babu",
+   "aliases": []
+  },
+  {
+   "te": "నాగ శ్రీవత్స",
+   "en": "Naga Srivatsa",
+   "aliases": []
+  },
+  {
+   "te": "రాజ్‌కుమార్ భారతి",
+   "en": "Rajkumar Bharathi",
+   "aliases": []
+  },
+  {
+   "te": "శశి ప్రీతం",
+   "en": "Sashi Preetam",
+   "aliases": []
+  },
+  {
+   "te": "హర్షవర్ధన్ రామేశ్వర్",
+   "en": "Harshavardhan Rameshwar",
+   "aliases": []
+  },
+  {
+   "te": "దేవిశ్రీ ప్రసాద్",
+   "en": "Devi Sri Prasad",
+   "aliases": []
+  },
+  {
+   "te": "వెంపటి చినసత్యం",
+   "en": "Vempati Chinna Satyam",
+   "aliases": []
+  }
+ ],
+ "works": [
+  {
+   "te": "అల వైకుంఠపురములో",
+   "en": "Ala Vaikunthapurramuloo",
+   "year": 2020,
+   "aliases": [
+    "అల.. వైకుంఠపురము లో"
+   ]
+  },
+  {
+   "te": "ఆంధ్రుడు",
+   "en": "Andhrudu",
+   "year": 2005
+  },
+  {
+   "te": "ఇంటింటా అన్నమయ్య",
+   "en": "Intinta Annamayya",
+   "year": 2013
+  },
+  {
+   "te": "ఏకవీర",
+   "en": "Ekaveera",
+   "year": 1969
+  },
+  {
+   "te": "కనులు కనులను దోచాయంటే",
+   "en": "Kanulu Kanulanu Dochayante",
+   "year": 2020
+  },
+  {
+   "te": "కిక్ 2",
+   "en": "Kick 2",
+   "year": 2015
+  },
+  {
+   "te": "కృష్ణం వందే జగద్గురుం",
+   "en": "Krishnam Vande Jagadgurum",
+   "year": 2012,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "ఖలేజా",
+   "en": "Khaleja",
+   "year": 2010
+  },
+  {
+   "te": "చిక్కడు దొరకడు",
+   "en": "Chikkadu Dorakadu",
+   "year": 1967
+  },
+  {
+   "te": "జగద్గురు ఆది శంకర",
+   "en": "Jagadguru Adi Shankara",
+   "year": 2013
+  },
+  {
+   "te": "జననీ జన్మభూమి",
+   "en": "Janani Janmabhoomi",
+   "year": 1984
+  },
+  {
+   "te": "తెనాలి రామకృష్ణ",
+   "en": "Tenali Ramakrishna",
+   "year": 1956,
+   "themes": [
+    "telugu"
+   ]
+  },
+  {
+   "te": "దక్షయజ్ఞం",
+   "en": "Daksha Yagnam",
+   "year": 1962,
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "దాన వీర శూర కర్ణ",
+   "en": "Daana Veera Soora Karna",
+   "year": 1977,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "నర్తనశాల",
+   "en": "Narthanasala",
+   "year": 1963,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "పరమానందయ్య శిష్యుల కథ",
+   "en": "Paramanandayya Sishyula Katha",
+   "year": 1966
+  },
+  {
+   "te": "పాండవ వనవాసము",
+   "en": "Pandava Vanavasam",
+   "year": 1965,
+   "aliases": [
+    "పాండవ వనవాసం"
+   ],
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "పాండురంగ మహత్యం",
+   "en": "Panduranga Mahatyam",
+   "year": 1957,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "పాండురంగడు",
+   "en": "Pandurangadu",
+   "year": 2008,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "ప్రమీలార్జునీయము",
+   "en": "Prameelarjuneeyam",
+   "year": 1965,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "బభ్రువాహన",
+   "en": "Babruvahana",
+   "year": 1964,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "బాలభారతము",
+   "en": "Bala Bharatam",
+   "year": 1972,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "బాహుబలి: ది బిగినింగ్",
+   "en": "Baahubali: The Beginning",
+   "year": 2015,
+   "aliases": [
+    "బాహుబలి:ద బిగినింగ్"
+   ]
+  },
+  {
+   "te": "బింబిసార",
+   "en": "Bimbisara",
+   "year": 2022,
+   "aliases": [
+    "బింబిసారా"
+   ]
+  },
+  {
+   "te": "భక్త ప్రహ్లాద",
+   "en": "Bhakta Prahlada",
+   "year": 1967,
+   "themes": [
+    "narasimha"
+   ]
+  },
+  {
+   "te": "భీమాంజనేయ యుద్ధం",
+   "en": "Bheemanjaneya Yuddham",
+   "year": 1966,
+   "themes": [
+    "hanuman",
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "భీష్మ",
+   "en": "Bhishma",
+   "year": 1962,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "మహాకవి కాళిదాసు",
+   "en": "Mahakavi Kalidasu",
+   "year": 1960
+  },
+  {
+   "te": "మేజర్ చంద్రకాంత్",
+   "en": "Major Chandrakanth",
+   "year": 1993
+  },
+  {
+   "te": "యమదొంగ",
+   "en": "Yamadonga",
+   "year": 2007
+  },
+  {
+   "te": "రౌద్రం రణం రుధిరం",
+   "en": "RRR",
+   "year": 2022,
+   "aliases": [
+    "ఆర్ ఆర్ ఆర్"
+   ]
+  },
+  {
+   "te": "రంగస్థలం",
+   "en": "Rangasthalam",
+   "year": 2018
+  },
+  {
+   "te": "లక్ష్మీ కటాక్షం",
+   "en": "Lakshmi Kataksham",
+   "year": 1970,
+   "themes": [
+    "devi"
+   ]
+  },
+  {
+   "te": "లవకుశ",
+   "en": "Lava Kusa",
+   "year": 1963,
+   "themes": [
+    "rama"
+   ]
+  },
+  {
+   "te": "వినాయక చవితి",
+   "en": "Vinayaka Chavithi",
+   "year": 1957,
+   "themes": [
+    "ganesha",
+    "krishna"
+   ]
+  },
+  {
+   "te": "వీరాభిమన్యు",
+   "en": "Veerabhimanyu",
+   "year": 1965,
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "వేదాంత దేశిక",
+   "en": "Vedanta Desika",
+   "year": 2018
+  },
+  {
+   "te": "శంకరాభరణం",
+   "en": "Sankarabharanam",
+   "year": 1980
+  },
+  {
+   "te": "శ్రీ కృష్ణాంజనేయ యుద్ధం",
+   "en": "Sri Krishnanjaneya Yuddham",
+   "year": 1972,
+   "themes": [
+    "krishna",
+    "hanuman"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణార్జున యుద్ధము",
+   "en": "Sri Krishnarjuna Yuddham",
+   "year": 1963,
+   "aliases": [
+    "శ్రీ కృష్ణార్జున యుద్ధం"
+   ],
+   "themes": [
+    "krishna",
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణ తులాభారం",
+   "en": "Sri Krishna Tulabharam",
+   "year": 1966,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణ పాండవీయం",
+   "en": "Sri Krishna Pandaveeyam",
+   "year": 1966,
+   "themes": [
+    "krishna",
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణ మాయ",
+   "en": "Sri Krishna Maya",
+   "year": 1958,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణ విజయం",
+   "en": "Sri Krishna Vijayam",
+   "year": 1971,
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "శ్రీకృష్ణావతారం",
+   "en": "Sri Krishnavataram",
+   "year": 1967,
+   "themes": [
+    "krishna",
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "శ్రీరామదాసు",
+   "en": "Sri Ramadasu",
+   "year": 2006,
+   "themes": [
+    "rama"
+   ]
+  },
+  {
+   "te": "సంపూర్ణ రామాయణం",
+   "en": "Sampoorna Ramayanam",
+   "year": 1971,
+   "themes": [
+    "rama"
+   ]
+  },
+  {
+   "te": "సత్య హరిశ్చంద్ర",
+   "en": "Satya Harishchandra",
+   "year": 1965
+  },
+  {
+   "te": "సాహసం శ్వాసగా సాగిపో",
+   "en": "Saahasam Swaasaga Saagipo",
+   "year": 2016
+  },
+  {
+   "te": "సింధూరం",
+   "en": "Sindhooram",
+   "year": 1997
+  },
+  {
+   "te": "స్వర్ణ కమలం",
+   "en": "Swarna Kamalam",
+   "year": 1988
+  },
+  {
+   "te": "స్వాతి కిరణం",
+   "en": "Swathi Kiranam",
+   "year": 1992
+  },
+  {
+   "te": "శ్రీనాథుడు",
+   "en": "Srinathudu",
+   "kind": "drama",
+   "themes": [
+    "telugu"
+   ]
+  },
+  {
+   "te": "శివదర్పణం",
+   "en": "Shiva Darpanam",
+   "kind": "album",
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "శ్యామ్ సింగ రాయ్",
+   "en": "Shyam Singha Roy",
+   "year": 2021
+  }
+ ],
+ "sources": [
+  {
+   "te": "పాండవోద్యోగ విజయాలు",
+   "en": "Pandavodyoga Vijayalu",
+   "themes": [
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "ఆంధ్ర మహాభాగవతము",
+   "en": "Andhra Mahabhagavatam",
+   "aliases": [
+    "పోతన తెలుగు భాగవతము",
+    "భాగవతం",
+    "భాగవతము",
+    "శ్రీమదాంధ్ర మహాభాగవతము"
+   ],
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "భగవద్గీత",
+   "en": "Bhagavad Gita",
+   "themes": [
+    "krishna",
+    "mahabharata"
+   ]
+  },
+  {
+   "te": "పారిజాతాపహరణం",
+   "en": "Parijathapaharanam",
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "కాశీఖండము",
+   "en": "Kasi Khandam",
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "భీమఖండము",
+   "en": "Bhima Khandam",
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "శృంగార నైషధం",
+   "en": "Srungara Naishadham",
+   "aliases": [
+    "శృంగార నైషధం (నల దమయంతుల కథ)"
+   ]
+  },
+  {
+   "te": "శ్రీకాళహస్తి మహాత్మ్యము",
+   "en": "Srikalahasti Mahatmyamu",
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "సత్యహరిశ్చంద్ర (నాటకం)",
+   "en": "Satya Harishchandra (play)",
+   "aliases": [
+    "సత్యహరిశ్చంద్ర"
+   ]
+  },
+  {
+   "te": "శ్రీ కృష్ణ కర్ణామృతం",
+   "en": "Sri Krishna Karnamrutham",
+   "aliases": [
+    "శ్రీ కృష్ణ కర్ణామృతం కావ్యం"
+   ],
+   "themes": [
+    "krishna"
+   ]
+  },
+  {
+   "te": "సౌందర్యలహరి",
+   "en": "Soundarya Lahari",
+   "themes": [
+    "devi"
+   ]
+  },
+  {
+   "te": "శ్యామలా దండకం",
+   "en": "Syamala Dandakam",
+   "themes": [
+    "devi"
+   ]
+  },
+  {
+   "te": "సూర్యాష్టకం",
+   "en": "Suryashtakam",
+   "themes": [
+    "surya"
+   ]
+  },
+  {
+   "te": "శివ తాండవ స్తోత్రం",
+   "en": "Shiva Tandava Stotram",
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "శ్రీ శివ స్తుతిః",
+   "en": "Sri Shiva Stuti",
+   "aliases": [
+    "శ్రీ శివ స్తుతిః (వందే శంభు)"
+   ],
+   "themes": [
+    "shiva"
+   ]
+  },
+  {
+   "te": "శ్రీ రఘువీర గద్యం",
+   "en": "Sri Raghuveera Gadyam",
+   "themes": [
+    "rama"
+   ]
+  }
+ ],
+ "themes": [
+  {
+   "key": "shiva",
+   "te": "శివుడు",
+   "en": "Shiva",
+   "match": "శివ|శంకర|శంభు|నటరాజ|రుద్ర|మహేశ్వర|ఈశ్వర|కాళహస్తి|విభూది|నాగ స్తుతి",
+   "playlists": [
+    "PLHkbY79dTSQUC0coarGAzipEVK3THhMiq"
+   ]
+  },
+  {
+   "key": "rama",
+   "te": "శ్రీరాముడు",
+   "en": "Rama",
+   "match": "రామ(?!కృష్ణ|లింగ|జోగ)|రాఘవ|రఘువీర|లవకుశ|రామాయణ|రావణ|అయోధ్య",
+   "playlists": [
+    "PLHkbY79dTSQX77zrKcATA8_4-VQHzCLje"
+   ]
+  },
+  {
+   "key": "krishna",
+   "te": "శ్రీకృష్ణుడు",
+   "en": "Krishna",
+   "match": "కృష్ణ(?!శాస్త్రి|మాచార్య|దేవ)|గోవింద|పాండురంగ|రుక్మిణి|వసుదేవ|జగద్గురుం",
+   "playlists": [
+    "PLHkbY79dTSQUjmiXppir8NRaqVIvognoj"
+   ]
+  },
+  {
+   "key": "devi",
+   "te": "అమ్మవారు",
+   "en": "Devi",
+   "match": "లక్ష్మి|దుర్గ|భవానీ|శారద|సరస్వతి|అన్నపూర్ణ|వాగ్దేవి|త్రైలోక్యమాత|జననీ|విద్యామయీ|మాణిక్య వీణా|వైష్ణవి",
+   "playlists": [
+    "PLHkbY79dTSQWCiQaPePnJ2v8Xd89jLZAT",
+    "PLHkbY79dTSQVUVhYOmT1WWc8ePynsCkul"
+   ]
+  },
+  {
+   "key": "venkateswara",
+   "te": "శ్రీ వేంకటేశ్వరుడు",
+   "en": "Venkateswara",
+   "match": "వేంకటేశ|శ్రీనివాస|అన్నమయ్య",
+   "playlists": [
+    "PLHkbY79dTSQXjoCOnoIsFeriXVNEdxuB7"
+   ]
+  },
+  {
+   "key": "ganesha",
+   "te": "వినాయకుడు",
+   "en": "Ganesha",
+   "match": "వినాయక|గణేశ|గణపతి|శుక్లాంబరధరం",
+   "playlists": []
+  },
+  {
+   "key": "narasimha",
+   "te": "నరసింహుడు",
+   "en": "Narasimha",
+   "match": "నరసింహ|నారసింహ|సింహక్రావ",
+   "playlists": []
+  },
+  {
+   "key": "subrahmanya",
+   "te": "సుబ్రహ్మణ్యుడు",
+   "en": "Subrahmanya",
+   "match": "సుబ్రహ్మణ్య|షణ్ముఖ",
+   "playlists": [
+    "PLHkbY79dTSQWrByNjAuSZWy5gRw-f4U5z"
+   ]
+  },
+  {
+   "key": "hanuman",
+   "te": "హనుమంతుడు",
+   "en": "Hanuman",
+   "match": "హనుమ|ఆంజనేయ",
+   "playlists": []
+  },
+  {
+   "key": "surya",
+   "te": "సూర్యుడు",
+   "en": "Surya",
+   "match": "సూర్యాష్టకం|సప్తాశ్వ",
+   "playlists": []
+  },
+  {
+   "key": "mahabharata",
+   "te": "మహాభారతం",
+   "en": "Mahabharata",
+   "match": "భీష్మ|పాండవ|కురుక్షేత్ర|అభిమన్యు|అర్జున",
+   "playlists": []
+  },
+  {
+   "key": "telugu",
+   "te": "తెలుగు భాష",
+   "en": "Telugu language",
+   "match": "తెలుగు|భువన విజయం|ఆంధ్రకవి",
+   "playlists": [
+    "PLHkbY79dTSQXYdsBX7IDHY5Dq0ilt7FxM"
+   ]
+  }
+ ]
+}

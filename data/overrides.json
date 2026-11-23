@@ -1,0 +1,75 @@
+{
+ "_note": "Use this file to correct one video. The keys are the YouTube video IDs. Fields: title_te, title_en, type, work, year, singers, lyricists, music, source, themes (lists of Telugu names or theme keys). Add a video ID to 'hidden' to remove it from the site.",
+ "hidden": [],
+ "videos": {
+  "CgjMZpoqNvI": {
+   "lyricists": [
+    "దాశరథి కృష్ణమాచార్య"
+   ],
+   "type": "song"
+  },
+  "RMtEzr8lHuA": {
+   "lyricists": [
+    "సిరివెన్నెల సీతారామశాస్త్రి"
+   ],
+   "title_te": "ప్రణవాలయ పాహి",
+   "title_en": "Pranavalaya Pahi",
+   "work": "శ్యామ్ సింగ రాయ్",
+   "type": "song"
+  },
+  "WP3LM1wPMOY": {
+   "work": "రౌద్రం రణం రుధిరం",
+   "music": [
+    "ఎం. ఎం. కీరవాణి"
+   ],
+   "type": "song"
+  },
+  "FzngHuhqJsc": {
+   "work": "రంగస్థలం",
+   "music": [
+    "దేవిశ్రీ ప్రసాద్"
+   ],
+   "type": "bgm",
+   "title_en": "Rangamma Mangamma — background score"
+  },
+  "TYQC5-Jpjik": {
+   "work": "రంగస్థలం",
+   "music": [
+    "దేవిశ్రీ ప్రసాద్"
+   ],
+   "type": "bgm",
+   "title_en": "Rangasthalam ending — background score"
+  },
+  "rC2X8jxzZTI": {
+   "work": "యమదొంగ",
+   "music": [
+    "ఎం. ఎం. కీరవాణి"
+   ],
+   "type": "bgm",
+   "title_en": "Young Yama — background score"
+  },
+  "obxwNgoclhA": {
+   "title_te": "అర్ధ శతాబ్దపు అజ్ఞానాన్ని",
+   "title_en": "Ardha Shatabdapu Agnanaanni"
+  },
+  "qLQ30kpu2qk": {
+   "title_te": "గజాననం భూత గణాధి సేవితమ్",
+   "title_en": "Gajananam Bhoota Ganadhi Sevitham"
+  },
+  "wH-rWGmU2uQ": {
+   "title_en": "Manikya Veena — Shyamala Dandakam"
+  },
+  "kER1d_jkzlE": {
+   "type": "shloka"
+  },
+  "H2hDsHZ9nvk": {
+   "type": "shloka"
+  },
+  "C7xrPkNc7is": {
+   "type": "padyam"
+  },
+  "pdydwge6Rb8": {
+   "type": "keerthana"
+  }
+ }
+}

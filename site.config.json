@@ -1,0 +1,19 @@
+{
+ "site": {
+  "name_te": "గంగాధర్ జన్ను",
+  "name_en": "Gangadhar Jannu",
+  "tagline_te": "తెలుగు పద్యాలు, శ్లోకాలు, పాటలు — సాహిత్యంతో",
+  "tagline_en": "Telugu padyams, shlokas and songs, with their words",
+  "base_url": "https://gangadharjannu.github.io/gjannu",
+  "default_lang": "te"
+ },
+ "channel": {
+  "id": "UCtkgk34SzF-ntG1VVZyPXJg",
+  "handle": "@gjannu",
+  "name": "gangadhar jannu",
+  "url": "https://www.youtube.com/@gjannu",
+  "motto_te": "త్రిలింగ దేశం - త్రిలింగ భాష - తెలుగు",
+  "mission_te": "నా అమ్మ భాష నా తర్వాత తరానికి అందించాలనే చిన్న ప్రయత్నం",
+  "mission_en": "A small attempt to pass on my native language to the next generation"
+ }
+}

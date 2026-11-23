@@ -1,0 +1,19 @@
+# Cloudflare Worker configuration for the upload notifier.
+# Deploy:  cd notify && npx wrangler deploy
+
+name = "gjannu-notify"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+CHANNEL_ID = "UCtkgk34SzF-ntG1VVZyPXJg"
+# Set this to the URL that "wrangler deploy" shows, then deploy again.
+# The cron trigger uses it to renew the subscription.
+WORKER_URL = ""
+
+# Renew the subscription at 03:00 UTC every 2 days.
+[triggers]
+crons = ["0 3 */2 * *"]
+
+[observability]
+enabled = true
