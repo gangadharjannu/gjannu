@@ -112,6 +112,12 @@ MONTHS = {
 }
 
 
+def chan_name(lang):
+    """Return the channel name in the language of the page."""
+    ch = CONFIG["channel"]
+    return ch.get("name_te", ch["name"]) if lang == "te" else ch["name"]
+
+
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
@@ -246,7 +252,7 @@ class Site:
 <footer class="foot">
  <div class="foot-in">
   <p class="foot-motto" lang="te">{esc(CONFIG['channel']['motto_te'])}</p>
-  <p>{t['footer_src'].format(channel=f'<a href="{esc(CONFIG["channel"]["url"])}" rel="noopener">{esc(CONFIG["channel"]["name"])}</a>')}</p>
+  <p>{t['footer_src'].format(channel=f'<a href="{esc(CONFIG["channel"]["url"])}" rel="noopener">{esc(chan_name(lang))}</a>')}</p>
   <p class="foot-meta">{esc(t['updated'])}: <time datetime="{self.built.isoformat()}">{fmt_date(self.built.date().isoformat(), lang)}</time></p>
  </div>
 </footer>
@@ -391,12 +397,12 @@ class Site:
         body = f"""
 <section class="opener wrap">
  <div class="op-text">
-  <p class="kicker">{t['kicker'].format(channel=f'<a href="{esc(ch["url"])}" rel="noopener">{esc(ch["name"])}</a>')}</p>
+  <p class="kicker">{t['kicker'].format(channel=f'<a href="{esc(ch["url"])}" rel="noopener">{esc(chan_name(lang))}</a>')}</p>
   <h1 class="op-h">{t['h1']}</h1>
   <p class="op-lede">{esc(t['lede'].format(n=n_items))}</p>
   <figure class="mission">
    <blockquote lang="{lang}">{esc(mission)}</blockquote>
-   <figcaption>— {esc(ch['name'])}</figcaption>
+   <figcaption>— {esc(chan_name(lang))}</figcaption>
   </figure>
  </div>
  <a class="op-verse" href="{self.u(f"{lang}/v/{latest['id']}/")}">
@@ -688,7 +694,7 @@ class Site:
         ch = CONFIG["channel"]
         if lang == "te":
             text = f"""
-<p>ఈ సైట్‌లోని ప్రతి పద్యం, శ్లోకం, పాట <a href="{esc(ch['url'])}" rel="noopener">{esc(ch['name'])}</a> యూట్యూబ్ ఛానెల్ నుండి వచ్చినవి. ఛానెల్ ఆశయం: <q>{esc(ch['mission_te'])}</q>.</p>
+<p>ఈ సైట్‌లోని ప్రతి పద్యం, శ్లోకం, పాట <a href="{esc(ch['url'])}" rel="noopener">{esc(chan_name('te'))}</a> యూట్యూబ్ ఛానెల్ నుండి వచ్చినవి. ఛానెల్ ఆశయం: <q>{esc(ch['mission_te'])}</q>.</p>
 <p>ప్రతి వీడియో వివరణలో చిత్రం, రచన, సంగీతం, గానం, పూర్తి సాహిత్యం ఉంటాయి. ఈ సైట్ ఆ వివరాలను చదివి, సంవత్సరం, చిత్రం, కవి, గాయకుల వారీగా అమర్చుతుంది.</p>
 <p>తెలుగు లిపి చదవలేని వారి కోసం ప్రతి పంక్తిని రోమన్ లిపిలో కూడా చూపిస్తుంది. ప్రతి పాట పేజీలో „లిపి“ మీట నొక్కి మార్చుకోవచ్చు.</p>
 <h2 class="sec-h sm">కొత్త వీడియోలు</h2>
