@@ -1,6 +1,6 @@
 # Gangadhar Jannu (గంగాధర్ జన్ను)
 
-This repository makes a static website for the [gangadhar jannu](https://www.youtube.com/@gjannu) YouTube channel. The site shows each Telugu padyam, shloka and song with its full text, its film, its poet, its singers and its composer. The site has a Telugu version (`/te/`) and an English version (`/en/`).
+This repository makes a static website for the [gangadhar jannu](https://www.youtube.com/@gjannu) YouTube channel. The site shows each Telugu padyam, shloka and song with its full text. It also shows the film, the poet, the singers and the composer. The site has a Telugu version (`/te/`) and an English version (`/en/`).
 
 The site has no server and no database. A Python script makes plain HTML files. Any static host can serve these files.
 
@@ -8,14 +8,14 @@ The site has no server and no database. A Python script makes plain HTML files. 
 
 | Feature | Description |
 |---|---|
-| Library | A list of all videos with filters: form, decade, year, film, singer, poet or lyricist, composer, source text, theme and format (Shorts or videos). |
+| Library | A list of all videos. The filters are form, decade, year, film, singer, poet or lyricist and composer. Other filters are source text, theme and format (Shorts or videos). |
 | Search | Search in Telugu script or in Roman script. The search also finds a line of verse. Different Roman spellings match (example: "dhorakadu" and "dorakadu"). |
 | Timeline | A bar chart of the videos by film year. Click a year to filter the library. |
 | Song page | The video, the credits and the full text. The reader can show the text in Telugu script, in Roman script or in both. |
 | Film pages | One page for each film, play or album. The films index is in decade order. |
 | Artist pages | One page for each singer, poet, lyricist and composer. |
 | Two languages | Each page has a Telugu version and an English version. The site keeps the selected language. |
-| Light and dark | The site follows the system colour setting. The reader can change it. |
+| Light and dark | The site uses the colour mode of the system. The reader can change it. |
 
 ## Architecture
 
@@ -178,13 +178,13 @@ The weekly job continues to add new videos.
 1. The owner uploads a video. The description uses the usual format: the credit lines, then the text.
 2. YouTube sends a notification to the Worker through the Google WebSub hub.
 3. The Worker checks the signature of the notification. It starts the update job.
-4. The job reads the RSS feed. If the feed does not show the video yet, the job tries again each minute, for a maximum of 10 minutes.
+4. The job reads the RSS feed. The feed can be some minutes late. If the video is not in the feed, the job tries again each minute for 10 minutes.
 5. The job saves the video in `data/videos/` and commits the change.
 6. The job builds the site and publishes it.
 
 The site shows the new video a few minutes after the upload. If a notification is lost, the weekly job (Monday, 01:30 UTC) adds the video. To publish immediately, run the workflow from the **Actions** tab.
 
-If the description has a name that is not in `data/names.json`, the site shows the name with an automatic Roman spelling. The job summary lists these names. Add each name to `data/names.json` to set the correct English name.
+A description can have a name that is not in `data/names.json`. The site then shows that name in an automatic Roman form. The job summary lists these names. Add each name to `data/names.json` to set the correct English name.
 
 ### Description format
 
@@ -206,8 +206,8 @@ A line with only `పద్యం`, `శ్లోకం`, `పాట`, `కీ�
 
 | Problem | Action |
 |---|---|
-| A name has the wrong English spelling | Change `en` for that name in `data/names.json`. |
-| Two spellings show as two people | Add the second spelling to `aliases` of the first person in `data/names.json`. |
+| A name has the wrong English form | Change `en` for that name in `data/names.json`. |
+| Two forms of one name show as two people | Add the second form to `aliases` of the first person in `data/names.json`. |
 | A film has no year | Add `year` to the film in `data/names.json`. |
 | A video has the wrong form, film or title | Add an entry for the video ID in `data/overrides.json`. |
 | A video must not show | Add the video ID to `hidden` in `data/overrides.json`. |
@@ -217,73 +217,3 @@ Push the change. The workflow builds and publishes the site again.
 ## Move to another site framework
 
 `build/content.json` has all the parsed data. It does not depend on `build.py`. To use a framework such as Astro, keep `fetch.py` and `parse.py`, and read `build/content.json` in the framework.
-
-## Cost estimate
-
-### Basis
-
-| Item | Value |
-|---|---|
-| Price sources | [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions), [GitHub Pages limits](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits), [YouTube Data API quota](https://developers.google.com/youtube/data/determine_quota_cost), [Cloudflare Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/), [Cloudflare Workers limits](https://developers.cloudflare.com/workers/platform/limits/) |
-| Date of the check | 23 November 2026 |
-| Region | Global (GitHub-hosted; no region choice) |
-| Currency | USD |
-| Exclusions | A custom domain name. Your own computer time. The time of the person who maintains `names.json`. |
-
-### Unit prices
-
-| Service | Unit price | Status |
-|---|---|---|
-| GitHub Pages, public repository | USD 0. Limits: 1 GB site size and a soft limit of 100 GB bandwidth each month. | Verified |
-| GitHub Actions, standard runner, public repository | USD 0. No usage limit. | Verified |
-| GitHub Actions, standard Linux runner, private repository | USD 0.006 each minute, after the plan's included amount (USD 12 each month on GitHub Free) | Verified |
-| YouTube RSS feed | USD 0. No key. | Not verified (no price page) |
-| YouTube WebSub hub (push notifications) | USD 0 | Not verified (no price page) |
-| Cloudflare Workers Free plan | USD 0. Limits: 100,000 requests each day and 5 cron triggers for each account. | Verified |
-| Cloudflare Workers Paid plan (not necessary) | Minimum USD 5 each month for each account | Verified |
-| YouTube Data API v3 | 10,000 quota units each day by default. Most read calls cost 1 unit. | Quota verified. Price not verified. |
-| Custom domain (optional) | Depends on the registrar | Not verified |
-
-### Fixed cost and usage cost (public repository)
-
-| Cost type | Item | Monthly cost |
-|---|---|---|
-| Fixed | Hosting on GitHub Pages | USD 0 |
-| Fixed | Cloudflare Worker on the Workers Free plan | USD 0 |
-| Usage | About 4 weekly jobs and about 10 notification jobs each month, of about 2 minutes each, on a standard runner | USD 0 |
-| Usage | About 15 cron runs and 20 hub requests each month on the Worker (limit: 100,000 requests each day) | USD 0 |
-| Usage | YouTube Data API: about 10 units each job, so about 150 units each month | USD 0 (inside the free quota) |
-| **Total** | | **USD 0** |
-
-### Cost of one unit of work
-
-| Unit | Calculation | Cost |
-|---|---|---|
-| One new video (notification, Worker request, update job), public repository | 2 minutes × USD 0 + 1 Worker request × USD 0 | USD 0 |
-| One update job, private repository after the included amount | 2 minutes × USD 0.006 (the job can wait up to 10 minutes for the feed) | USD 0.012 to USD 0.06 |
-| One page view | Static file from GitHub Pages. The page is about 50 KB, plus the thumbnails from YouTube. | USD 0 |
-
-### Scenarios
-
-| Scenario | Assumption | Monthly cost |
-|---|---|---|
-| Demonstration | Local preview only | USD 0 |
-| Pilot | Public repository, GitHub Pages, weekly RSS update, no notifier | USD 0 |
-| Production | Public repository, notifier on Workers Free, API key, custom domain | USD 0, plus the domain fee (not verified) |
-| Private repository | 14 jobs of 2 minutes = 28 minutes = USD 0.17, inside the USD 12 included amount | USD 0. GitHub Pages from a private repository needs a paid GitHub plan (not priced here). |
-
-### Cost controls
-
-1. Keep the repository public. Then GitHub Actions standard runners and GitHub Pages have no charge.
-2. Keep the schedule at one run each week. The notifier starts a run for each new video.
-3. Stay on the Cloudflare Workers Free plan. The notifier uses far less than the daily limit. If the Worker goes above the limit, Cloudflare blocks requests. It does not charge.
-4. Limit the API key to the YouTube Data API v3. Do not enable billing on the Google Cloud project.
-5. Keep the site below 1 GB. The site is about 7 MB now. The images come from YouTube, not from the repository.
-
-### Items that you must verify
-
-1. The current GitHub Actions and GitHub Pages terms, if you use a private repository.
-2. That the YouTube Data API has no charge in your Google Cloud project, and that billing is off.
-3. The domain fee, if you use a custom domain.
-4. That the site traffic stays below the 100 GB monthly soft limit of GitHub Pages.
-5. That your Cloudflare account stays on the Workers Free plan.
